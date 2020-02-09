@@ -1,8 +1,8 @@
 const { someChange } = require('./compare');
 const {
-  refOriginalData,
-  refValuesUnchanged,
-  refValuesChanged,
-} = require('./testData/compareTestDataRef');
+  associatedValueOriginalData,
+  associatedValueValuesUnchanged,
+  associatedValueValuesChanged,
+} = require('./testData/compareTestDataAssociatedValue');
 
-console.log(someChange(refOriginalData, refValuesChanged));
+console.log(someChange(associatedValueOriginalData, associatedValueValuesChanged));
